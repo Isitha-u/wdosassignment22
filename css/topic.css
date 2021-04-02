@@ -1,0 +1,176 @@
+body {/* navigation bar properties */
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+  }
+  
+  .topnavigation {
+    overflow: hidden;
+    background-color: rgb(44, 170, 27);
+  }
+  
+  .topnavigation a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnavigation a:hover {
+    background-color: rgb(175, 221, 7);
+    color: black;
+  }
+  
+  .topnavigation a.active {
+    background-color: #4CAF50;
+    color: white;
+  
+  }
+
+  header { /* header section color and styles */
+    background-color: rgb(226, 224, 192);
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+  }
+
+  .image1{ /* main image position */
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  .heading{/* heading inside the image */
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+  .sub{ /* heading inside the image */
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  section { /* section position */
+    display:-ms-flexbox;
+    display: flex;
+  }
+
+  article{ /* paragraph font styles and colors */
+    -webkit-animation: 5;
+    -ms-flex: 3;
+    flex:3;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(15, 25, 68);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .list3{ /* unordered list */
+    -webkit-flex:1;
+    -ms-flex: 1;
+    flex:1;
+    background: rgb(255, 255, 255);
+    padding:40px;
+    
+
+  }
+
+  .list3 list{ /* list styles*/
+    list-style:square;
+    list-style-type:square;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .list3 h2{ /* heading of the list */
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(55, 85, 218);
+  }
+
+  
+
+  h2{ /* scrolling heading styles and colors */
+    text-align: center;
+    font-size: 1500%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+  }
+
+  h3.pol{ /* heading styles */
+    font-size: 400%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 170, 27);
+    text-align: center;
+  }
+
+  .save{ /* image position */
+    position: relative;
+    text-align: center;
+    color: black;
+
+  }
+
+  .save1{ /* message inside the image*/
+    position: absolute;
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  footer{ /* footer styles */
+    background-color: rgb(51, 5, 5);
+    padding: 10px;
+    color: rgb(236, 208, 208);
+    text-align: left;
+  }
+
+  footer .eco{ /*footer heading*/
+    text-align: left;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 83, 16);
+  }
+
+  footer .eco2{ /* text alignment in footer */
+    text-align: left;
+  }
+
+  @media (max-width:500px){ /* responsive for mobile */
+    header, .topnavigation, .image1, .heading, .sub, section, .list3, .save1, .save, footer, .eco, .eco2{
+      width: 100%;
+    }
+  }
+
+  @media(max-width:800px){ /* responsive for tablets */
+    header, .topnavigation, .image1, .heading, .sub, .list3, .save1, .save, footer, .eco, .eco2{
+      width: 80%;
+      padding: 0;
+    }
+    section{
+      width: 100%;
+    }
+  }
+  
+  

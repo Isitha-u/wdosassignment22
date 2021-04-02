@@ -1,0 +1,500 @@
+/* Navigation styles */
+body { 
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif; /* navigation bar font type */
+  }
+  
+  .topnavigation {
+    overflow: hidden; /* over flow effect and overflow background color */
+    background-color: rgb(44, 170, 27);
+  }
+  
+  .topnavigation a {/* navigation bar text styles */
+    float: left; 
+    color: #000000;/* navigation bar text color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnavigation a:hover { /* navigation bar hover effect background color and font color */
+    background-color: rgb(175, 221, 7);
+    color: black;
+  }
+  
+  .topnavigation a.active { /* active page navigation bar color and text color */
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+ 
+   
+  
+  }
+
+  header { /* header section background color and text properties */
+    background-color: rgb(219, 164, 93);
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+  }
+
+  .mainimg{ /* main image of index page posiioning */
+      position: relative;
+      font-family: Arial;
+
+  }
+
+  .box{ /* text inside the box of main image stylings*/
+      position:absolute;
+      bottom: 40px;
+      right: 40px;
+      background-color: black;
+      background: rgba(0, 0, 0, 0.5);
+      color: blanchedalmond;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: 17px;
+
+  }
+
+  .box h3{ /* heading inside box topic font styles */
+    font-size: 30px;
+    color: rgb(230, 220, 134);
+
+  }
+
+  body{ /* whole web page font type */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2 { /* all headings 2 style types */
+    background-color: rgb(104, 180, 84);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    
+  }
+
+  section { /* section position */
+    display:-ms-flexbox;
+    display: flex;
+  
+    
+  }
+
+  .ulist{ /* list stylings and properties */
+    -webkit-flex:1;
+    -ms-flex: 1;
+    flex:1;
+    background: rgb(170, 231, 151);
+    padding:40px;
+    
+
+  }
+
+  .ulist ul{ /* list content styling */
+    list-style:square;
+    list-style-type:square;
+    padding: 5px;
+    font-size: 20px;
+
+  }
+
+  article{ /* paragraphs inside articles stylings and font styles */
+    animation: 5;
+    -ms-flex: 3;
+    flex:3;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(62, 122, 2);
+  }
+
+  footer{ /* footer stylings */
+    background-color: rgb(51, 5, 5);
+    padding: 10px;
+    color: rgb(236, 208, 208);
+    text-align: left;
+  }
+
+  footer .eco{ /* footer content text properties */
+    text-align: left;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 83, 16);
+  }
+
+  footer .eco2{ /* footer heading alignment */
+    text-align: left;
+  }
+
+  
+
+   h3{ /* heading 3 properties */
+ 
+    padding-left: initial;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+      }
+
+      list h3{ /* heading of list styles */
+        color: rgb(92, 136, 11);
+        text-align: center;
+        font-style: italic;
+        font-size: 30px;
+      }
+
+      .Image2{ /* image alignment */
+        float:right
+      }
+
+     ol{ /* ordered list text styles */
+      line-height: 20px;
+      list-style-position:inside;
+      padding: 5px;
+      font-size: 20px;
+      text-align: center;
+      
+    } 
+
+    .topicimg{ /* main image position */
+      position: relative;
+      text-align: left;
+      color: black;
+
+    }
+
+    .topic{ /* page topic inside the image styles */
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+      color: rgba(0.5, 0.5, 0.5, 0.5);
+      padding-left: 40px;
+      padding-right: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+    }
+
+    #products{ /* table styles */
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      border: black;
+      border: 5px;
+      
+    }
+
+    #products td, #products th{ /* table box styles/ border and padding */
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    #products tr{ /* table row background color */
+      background-color: rgb(179, 228, 200);
+      
+    }
+
+    
+    
+    #products th{ /* table heading backgroung colors */
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+      background-color: rgb(68, 175, 115);
+      color: black;
+
+    }
+
+    
+
+    table list ul{ /* unordered list inside the table */
+      list-style-type: disc;
+
+    }
+
+    tfoot{ /* table footer of the table */
+      text-align: center;
+      font-style:oblique;
+      font-size: 19px;
+    }
+
+    .topicimg2{ /* main image position */
+      position: relative;
+      text-align:right;
+      color: black;
+
+    }
+
+    .topic2{ /* topic inside the image */
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 50px;
+      color: rgb(0, 0, 0);  
+      padding-left: 40px;
+      padding-right: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+    }
+     a{ /* link text color */
+       color: rgb(0, 0, 0);
+     }
+
+     h4{ /*headings of manufacturer font color and style */
+       color: crimson;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 40px;
+     }
+
+     .button a:link, a:visited{ /* buttons linked to the different style sheets with same html */
+       background-color: tomato;
+       color: rgb(114, 4, 4);
+       padding: 10px;
+       text-align: center;
+       display: inline-block;
+       width: 392%;
+     }
+
+     .button a:hover, a:active{ /* hover effect color of the buttons */
+       background-color: yellow;
+     }
+
+     
+     .Buynow{ /* main image position */
+      position: relative;
+      text-align: center;
+      color: rgb(255, 255, 255);
+    }
+  
+    .cart {/* heading inside the image */
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 500%;
+      font-family: Arial, Helvetica, sans-serif;
+    
+    }
+     
+    #bnow{
+      width: 100%;
+      height: 700px;
+    }
+
+    
+
+    h5{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 180%;
+      left: 50%;
+      color: rgb(97, 61, 8);
+    }
+
+    h6{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 150%;
+      left: 10%;
+      color: crimson;
+    }
+
+    .drpbtn{
+      background-color: rgb(240, 141, 27);
+      color: black;
+      padding: 10px;
+      font-size: 200%;
+      cursor: pointer;
+    }
+
+    .drpdwn{
+      position: relative;
+      display: inline-block;
+    }
+
+    .contents{
+      display: none;
+      position: absolute;
+      background-color: blanchedalmond;
+      min-width: 80%;
+      overflow: auto;
+      box-shadow: burlywood;
+      z-index: 1;
+    }
+
+    .contents a{
+      color: black;
+      padding: 15px 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .drpdwn a:hover{
+      background-color: darkorange;
+    
+    }
+
+    .show{
+      display: block;
+    }
+
+    .bttn{
+      border: none;
+      background-color: inherit;
+      padding: 15px 30px;
+      font-size: 150%;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    .bttn:hover{background: lemonchiffon;}
+
+    .co{
+      color: rebeccapurple;
+      
+    }
+
+    .ato{
+      color: brown;
+    }
+
+    .ovo{
+      color: darkblue;
+    }
+
+    .po{
+      color: red;
+    }
+
+    .contact {/* heading inside the image */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: blanchedalmond;
+      transform: translate(-50%, -50%);
+      font-size: 500%;
+      font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+    .cont{
+      position: absolute;
+      bottom: 10%;
+      right: 20%;
+      font-size: 150%;
+    }
+
+    .contactus{
+      position: relative;
+      text-align: center;
+      color: blanchedalmond;
+     
+    }
+
+    .split{
+      height: 50%;
+      width: 50%;
+      position: relative;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 10%;
+    }
+
+    .lef{
+      left: 0;
+      background-color: burlywood;
+    }
+
+    .righ{
+      right: 0;
+      background-color: darkgrey;
+    }
+
+    .conte{
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+  #manus{
+    border: black solid 5px;
+
+    
+
+  }
+
+ .Manuf {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(255, 255, 255);
+}
+ 
+.items{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(255, 255, 255);
+}
+
+.drpdwn{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(255, 255, 255);
+}
+.chkbox{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(255, 255, 255);
+}
+
+.carrt{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+     
+    @media (max-width:500px){ /* mobile responsive for mobile phones */
+      header, .topnavigation, .mainimg, .box, section, h1, h2, h3, footer, .eco, .eco2{
+        width: 100%;
+      }
+    }
+
+    @media(max-width:800px){/* responsive for tablets */
+      header, .topnavigation, .mainimg, .box, h1, h2, h3, footer, .eco, .eco2{
+        width: 80%;
+        padding: 0;
+      }
+      section{
+        width: 100%;
+      }
+    }
+
+    @media(max-width:500px){ /* mobile responsive for mobile phones */
+      .topicimg, .topic, .topicimg2, .topic2, .manufacture{
+        width: 100%;
+      }
+    }
+
+
+    @media(max-width:800px){ /* responsive for tablets */
+      .topicimg, .topic, .topicimg2, .topic2, .manufacture{
+        width: 80%;
+        padding: 0;
+      }
+    }
+
+    
